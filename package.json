@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./dist/cjs.js",
   "repository": "git@github.com:alan89757/uitest-loader.git",
-  "author": "liangrongjun <liangrongjun@saicmobility.com>",
+  "author": "alan89757 <alan89757@163.com>",
   "license": "MIT",
   "devDependencies": {
     "loader-utils": "^2.0.0",
