@@ -2,7 +2,7 @@ var path = require("path");
 var xlsx = require('node-xlsx').default;
 var _loaderUtils = require("loader-utils");
 
-module.exports = function(source) {
+export default function loader (source) {
     var options = (0, _loaderUtils.getOptions)(this) || {};
     // 解析json
     var data = JSON.parse(source);
@@ -18,3 +18,5 @@ module.exports = function(source) {
     fs.writeFileSync(path.join(__dirname, `./${data.filename}.xlsx`), Buffer.from(buffer));
     return source;
 }
+
+export const raw = true;

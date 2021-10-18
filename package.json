@@ -1,6 +1,6 @@
 {
   "name": "uitest-loader",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "./dist/cjs.js",
   "repository": "git@github.com:alan89757/uitest-loader.git",
   "author": "alan89757 <alan89757@163.com>",
@@ -9,5 +9,12 @@
     "loader-utils": "^2.0.0",
     "node-xlsx": "^0.17.2"
   },
+  "keywords": [
+    "ui",
+    "uitest",
+    "loader",
+    "webpack loader",
+    "uitest-loader"
+],
   "dependencies": {}
 }

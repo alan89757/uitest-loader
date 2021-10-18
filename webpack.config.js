@@ -1,10 +1,14 @@
 const path = require("path");
 
 module.exports = {
-    entry: "./src/index.js",
-    mode: "production",
+    entry: {
+        cjs: "./src/cjs.js"
+    },
+    mode: "development",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "cjs.js"
+        filename: "[name].js",
+        library: 'uitest',
+        libraryTarget: 'umd'
     }
 }
