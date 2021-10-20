@@ -1,6 +1,6 @@
 {
   "name": "uitest-loader",
-  "version": "1.0.12",
+  "version": "2.0.0",
   "main": "./dist/cjs.js",
   "repository": "git@github.com:alan89757/uitest-loader.git",
   "author": "alan89757 <alan89757@163.com>",

@@ -19,7 +19,7 @@ $ npm install uitest-loader --save-dev
 
 ### yarn
 ```console
-$ yarn add uitest-loader --save-save
+$ yarn add uitest-loader --save-dev
 ```
 
 `uitest-loader` works like
